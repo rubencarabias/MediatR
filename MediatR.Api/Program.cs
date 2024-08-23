@@ -1,8 +1,12 @@
+using Examples;
 using BuildingBlocks.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+ExamplesModule.Install(builder);
+
 builder.AddAssemblyServices(typeof(Program).Assembly);
 
 
@@ -25,5 +29,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapEndpoints();
 
 app.Run();

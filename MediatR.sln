@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Api", "MediatR.Api\MediatR.Api.csproj", "{E7EE2A83-2471-484B-A70A-B959AC43A9E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Api", "MediatR.Api\MediatR.Api.csproj", "{E7EE2A83-2471-484B-A70A-B959AC43A9E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{AEB0B7CC-9B52-4C98-ABBB-3387BB9F5818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{4CBF9310-8F2B-49EC-A6A0-DC0987D575FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{4CBF9310-8F2B-49EC-A6A0-DC0987D575FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "ServiceDefaults\ServiceDefaults.csproj", "{87DB210A-F006-4252-B31B-188F816CA829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceDefaults", "ServiceDefaults\ServiceDefaults.csproj", "{87DB210A-F006-4252-B31B-188F816CA829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{E6275D24-098A-419C-8B48-E4ADC5D5A1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{CDC0FBC9-9050-4D5D-B454-BF3A2E065206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,10 @@ Global
 		{87DB210A-F006-4252-B31B-188F816CA829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87DB210A-F006-4252-B31B-188F816CA829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87DB210A-F006-4252-B31B-188F816CA829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC0FBC9-9050-4D5D-B454-BF3A2E065206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC0FBC9-9050-4D5D-B454-BF3A2E065206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC0FBC9-9050-4D5D-B454-BF3A2E065206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC0FBC9-9050-4D5D-B454-BF3A2E065206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4CBF9310-8F2B-49EC-A6A0-DC0987D575FE} = {AEB0B7CC-9B52-4C98-ABBB-3387BB9F5818}
 		{87DB210A-F006-4252-B31B-188F816CA829} = {AEB0B7CC-9B52-4C98-ABBB-3387BB9F5818}
+		{CDC0FBC9-9050-4D5D-B454-BF3A2E065206} = {E6275D24-098A-419C-8B48-E4ADC5D5A1D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09B425FD-8D7E-40A4-9454-37D811E76285}

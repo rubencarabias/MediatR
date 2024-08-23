@@ -8,7 +8,8 @@ namespace BuildingBlocks.DependencyInjection
         public static WebApplicationBuilder AddAssemblyServices(this WebApplicationBuilder app, Assembly assembly)
         {
             app.Services
-            .AddMediatR(x => x.RegisterServicesFromAssembly(assembly));
+            .AddMediatR(x => x.RegisterServicesFromAssembly(assembly))
+            .AddEndpoints(assembly);
 
             return app;
         }
